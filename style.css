@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    color: white;
+}
+
+body {
+    background-image: url(./imges/kochaRasmi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email {
+    margin-top: 50px;
+    width: 400px;
+    height: 30px;
+}
+
+.password {
+    width: 400px;
+    height: 30px;
+}
+
+.ptichka {
+    display: flex;
+    gap: 5px;
+}
+
+.account {
+    background-color: greenyellow;
+    border: none;
+    width: 400px;
+    height: 30px;
+}
+
+.box {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+hr {
+    width: 90px;
+    height: 1px;
+    align-items: center;
+}
+
+.button {
+    margin: 30px;
+    gap: 50px;
+}
+
+.Facebook {
+    background-color: blue;
+    border: none;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+}
+
+.Twitter {
+    background-color: rgb(97, 97, 226);
+    border: none;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+}
+
+.Google {
+    background-color: red;
+    border: none;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+}
+
+.footer {
+    display: flex;
+    gap: 5px;
+}
